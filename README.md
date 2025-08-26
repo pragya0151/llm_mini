@@ -1,6 +1,7 @@
-# Professional RAG Chat (Tiny LLaMA + FAISS)
+## MINI LLM
 
-<img width="1876" height="918" alt="image" src="https://github.com/user-attachments/assets/67b1a6ac-8ee7-4924-8627-e6172611feef" />
+<img width="1916" height="902" alt="image" src="https://github.com/user-attachments/assets/cf05bda2-07a4-46b5-9965-9b048e78fed6" />
+
 
 
 
