@@ -12,31 +12,39 @@ Professional RAG Chat is a web application that allows users to ask questions on
 
 1. **PDF Upload & Processing**  
    Users can upload one or more PDFs. Each PDF is automatically chunked into smaller segments, indexed, and stored in a FAISS vector database for efficient retrieval.
+   
    <img width="1829" height="684" alt="image" src="https://github.com/user-attachments/assets/46a93904-ae8c-4d0b-ae71-64f1f9d13e43" />
 
-2. **RAG (Retrieval-Augmented Generation)**  
+3. **RAG (Retrieval-Augmented Generation)**  
    Questions are processed using a Tiny LLaMA model combined with the FAISS database. The system retrieves relevant chunks from PDFs and generates context-aware answers.
+   
    <img width="1771" height="708" alt="Screenshot 2025-08-26 113959" src="https://github.com/user-attachments/assets/aaad0aa5-8d79-4b0b-bcf0-9a97bc839f34" />
 
-3. **General Knowledge Queries**  
+4. **General Knowledge Queries**  
    If no PDFs are uploaded, the Tiny LLaMA model alone answers questions using its internal knowledge.
+   
    <img width="1708" height="756" alt="Screenshot 2025-08-26 124858" src="https://github.com/user-attachments/assets/5e3e8e79-f5b6-4b2a-9384-2edf000e3232" />
 
-4. **Highlighting Sources**  
+5. **Highlighting Sources**  
    Relevant snippets from uploaded PDFs are highlighted and displayed along with the answer.
+   
    <img width="1739" height="711" alt="Screenshot 2025-08-26 114210" src="https://github.com/user-attachments/assets/a4546d7a-0690-4df5-bf4e-b37d5bce8cba" />
 
-5. **Explain Like I’m 5**  
+6. **Explain Like I’m 5**  
    Optional mode simplifies answers for easier understanding.
 
-6. **FAQ Sidebar**  
-   A dedicated sidebar contains frequently asked questions about RAG, uploading PDFs, Tiny LLaMA functionality, and general   AI usage tips.
+7. **FAQ Sidebar**  
+   A dedicated sidebar contains frequently asked questions about RAG, uploading PDFs, Tiny LLaMA functionality, and general AI usage tips.
+   
    <img width="570" height="831" alt="image" src="https://github.com/user-attachments/assets/b53208c9-6960-4ea3-9027-38685b8d867b" />
-7. **Past Questions Section**  
+   
+8. **Past Questions Section**  
    All previous user questions and their corresponding answers are stored in an expandable format, allowing users to quickly review past interactions. A “Clear History” button resets the chat session.
    
 <img width="850" height="877" alt="image" src="https://github.com/user-attachments/assets/0dc85ffc-11d7-46dc-86f9-73f9a40a2c0a" />
-8. **About me section to give users idea about this app**
+
+
+9. **About me section to give users idea about this app**
 <img width="724" height="465" alt="image" src="https://github.com/user-attachments/assets/e035059f-3fbf-4f3e-be6d-5be2f85d3c97" />
 
 ## workflow
