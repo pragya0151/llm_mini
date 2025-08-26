@@ -5,7 +5,7 @@
 
 
 
-Professional RAG Chat is a web application that allows users to ask questions on uploaded PDFs using a lightweight Tiny LLaMA model combined with a FAISS vector database for fast retrieval. It can also answer general knowledge queries even without uploaded files and highlights relevant sections in PDFs for easy reference.
+MINI LLM is a web application that allows users to ask questions on uploaded PDFs using a lightweight Tiny LLaMA model combined with a FAISS vector database for fast retrieval. It can also answer general knowledge queries even without uploaded files and highlights relevant sections in PDFs for easy reference.
 
 ---
 
@@ -19,7 +19,8 @@ Professional RAG Chat is a web application that allows users to ask questions on
 3. **RAG (Retrieval-Augmented Generation)**  
    Questions are processed using a Tiny LLaMA model combined with the FAISS database. The system retrieves relevant chunks from PDFs and generates context-aware answers.
    
-   <img width="1771" height="708" alt="Screenshot 2025-08-26 113959" src="https://github.com/user-attachments/assets/aaad0aa5-8d79-4b0b-bcf0-9a97bc839f34" />
+   <img width="1890" height="932" alt="image" src="https://github.com/user-attachments/assets/edace19b-c9ca-4c42-aa4c-1a7b9857f2a1" />
+
 
 4. **General Knowledge Queries**  
    If no PDFs are uploaded, the Tiny LLaMA model alone answers questions using its internal knowledge.
@@ -82,7 +83,5 @@ This project combines **frontend UI**, **backend API**, and **AI processing** to
 
 ---
 
----
 
-## Project structure
-<img width="771" height="699" alt="image" src="https://github.com/user-attachments/assets/585eda6b-a7b3-4556-85e0-4fc5075adf27" />
+
