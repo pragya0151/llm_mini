@@ -14,12 +14,13 @@ MINI LLM is a web application that allows users to ask questions on uploaded PDF
 1. **PDF Upload & Processing**  
    Users can upload one or more PDFs. Each PDF is automatically chunked into smaller segments, indexed, and stored in a FAISS vector database for efficient retrieval.
    
-   <img width="1829" height="684" alt="image" src="https://github.com/user-attachments/assets/46a93904-ae8c-4d0b-ae71-64f1f9d13e43" />
+     <img width="1890" height="932" alt="image" src="https://github.com/user-attachments/assets/edace19b-c9ca-4c42-aa4c-1a7b9857f2a1" />
 
 3. **RAG (Retrieval-Augmented Generation)**  
    Questions are processed using a Tiny LLaMA model combined with the FAISS database. The system retrieves relevant chunks from PDFs and generates context-aware answers.
    
-   <img width="1890" height="932" alt="image" src="https://github.com/user-attachments/assets/edace19b-c9ca-4c42-aa4c-1a7b9857f2a1" />
+   <img width="1279" height="800" alt="Screenshot 2025-08-26 140751" src="https://github.com/user-attachments/assets/ca59e579-59f5-44ad-870e-5b461f6155e3" />
+
 
 
 4. **General Knowledge Queries**  
@@ -82,6 +83,8 @@ This project combines **frontend UI**, **backend API**, and **AI processing** to
    - Sidebar shows expandable past questions with corresponding answers for easy review.  
 
 ---
+## project structure
+<img width="348" height="630" alt="image" src="https://github.com/user-attachments/assets/5d251cfb-616c-4c60-8652-27daf8121171" />
 
 
 
